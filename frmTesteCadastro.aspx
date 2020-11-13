@@ -12,7 +12,7 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="form-group">
-                      
+
                      <label for="IDAluno">ID do Aluno:</label>
                      <asp:TextBox runat="server" required="required" type="text" class="form-control" id="txtIDAluno" name="IDAluno" placeholder="Ex.: 10" maxlength="20"/>
                   </div>
@@ -94,7 +94,6 @@
               </div>
            </div>
            
-       
        <div class="row">
               <div class="col-md-2">
                  <div class="form-group">
