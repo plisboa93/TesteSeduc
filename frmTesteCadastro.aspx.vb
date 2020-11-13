@@ -17,7 +17,7 @@ Partial Class _Default
     End Sub
 
 #Region "Funções de Cadastro"
-    Private Function VerificarCpf() As Boolean
+    Private Function VerificarDoc() As Boolean
         Dim objDocumentos As New Documentos
         Dim Existe As Boolean = False
 
@@ -54,7 +54,7 @@ Partial Class _Default
         Dim objDocumentos As New Documentos(ViewState("Codigo"))
         With objDocumentos
             .IDAluno = Trim(Validacao.RetirarEspacos(txtIDAluno.Text))
-            If VerificarCpf() = True Then
+            If VerificarDoc() = True Then
                 Exit Sub
             End If
             .CPFdaMae = Replace(Replace(txtCPFmae.Text, ".", ""), "-", "")
