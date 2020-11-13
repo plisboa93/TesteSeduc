@@ -5,7 +5,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <section class="content-header">
-
  </section>
    <section class="content">
       <h4 class="page-header">Formulario Cadastro de Documentos</h4>
