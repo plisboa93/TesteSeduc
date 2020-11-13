@@ -23,7 +23,7 @@
                       <asp:TextBox runat="server" required="required" type="text" class="form-control" id="txtDNA" name="DNA" placeholder="Ex.: 01/01/2000" maxlength="10"/>
                  </div>
                </div>
-            </div>
+            </div> 
 
 
             <div class="row">
